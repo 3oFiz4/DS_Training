@@ -1,20 +1,20 @@
-# Collaboration Guide
+# Panduan Kolaborasi
 
-Project uses Pull Requests (PR). **DO NOT PUSH DIRECTLY TO `main` UNLESS INSTRUCtRED**.
+Proyek ini menggunakan _Pull Request_ (PR). **JANGAN MELAKUKAN PUSH LANGSUNG KE `main` KECUALI DIINSTRUKSIKAN**.
 
-Please read more about conventional commit standard in here (https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13):
+Silakan baca lebih lanjut mengenai standar _conventional commit_ di sini (https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13):
 
-Mostly used scopes:
-feat (feature): Commit that add/remove/change something
-fix (fix): Commit that fix something
-refactor (refactor): Commit that rewrite without altering functionality
-perf (performance): Commit that improve performance
-style (style): Commit that address code style, formatting, comments
+Tipe yang paling sering digunakan:
+feat (fitur): Commit that add/remove/change something
+fix (perbaikan): Commit that fix something
+refactor (perubahan): Commit that rewrite without altering functionality
+perf (performa): Commit that improve performance
+style (gaya): Commit that address code style, formatting, comments
 
-Usage:
+Pengunaan
 
-> `[type]([scope]): <changes but in imperative>`
-> Example:
+> `[tipe]([scope]): <Perubahan dalam kata perintah>`
+> Contoh:
 > fix(df_info): add complementary validator for df
 
 ## First time setup
