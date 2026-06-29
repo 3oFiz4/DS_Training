@@ -60,3 +60,5 @@ gh pr create \
   --title "<changes_title>" \
   --body "<changes_description>"
 ```
+
+2. Or type `gh pr create`
